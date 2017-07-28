@@ -1,0 +1,64 @@
+*,
+*:after,
+*:before {
+	@include box-sizing(border-box);
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-areas:
+		"header"
+		"content"
+		"footer";
+}
+
+.container {
+	width: 100%;
+	max-width: $site-width;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.inner-container {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+section {
+	min-height: 386px;
+	padding: 52px 0 80px;
+	@include mq($from: mobile, $until: tablet) {
+		padding: 32px 0 60px;
+	}
+}
+
+.col-3 {
+
+	@include mq($from: tablet) {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	div{
+		margin-bottom: 60px;
+	}
+}
+
+/* css grid */
+.nav-header {
+	grid-area: header;
+}
+
+.main-content {
+	grid-area: content;
+}
+
+.page-footer {
+	grid-area: footer;
+}
