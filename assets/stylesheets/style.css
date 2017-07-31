@@ -318,6 +318,17 @@ color: white;
   padding-left: 13px;
 }
 
+.table {
+  border-collapse: collapse;
+  width: 100%;}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
 @media screen and (max-width:768px) {
 		.probootstrap-footer-social.right {
 				text-align: left
