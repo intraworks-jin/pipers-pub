@@ -301,6 +301,23 @@ section[data-section=menu] {
 		color: #FFA33E
 }
 
+.menu-category {
+  padding-left: 34px;
+}
+
+.menu-section {
+  border-bottom: 2px solid #FFA33E;
+}
+
+.Add-On {background-color: #FFA33E;
+color: white;
+  padding-left: 13px;
+  padding-bottom: 1em;
+}
+.Add-On li {
+  padding-left: 13px;
+}
+
 @media screen and (max-width:768px) {
 		.probootstrap-footer-social.right {
 				text-align: left
