@@ -329,6 +329,30 @@ th, td {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .mobile {
+    visibility: visible;
+  }
+  
+  th, td {
+    border-bottom: none;
+  }
+  
+  .tablet_web {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+  
+  .tablet_web {
+    visibility: visible;
+  }
+}
+
 @media screen and (max-width:768px) {
 		.probootstrap-footer-social.right {
 				text-align: left
