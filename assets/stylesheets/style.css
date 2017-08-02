@@ -309,8 +309,9 @@ section[data-section=menu] {
   border-bottom: 2px solid #FFA33E;
 }
 
-.Add-On {background-color: #FFA33E;
-color: white;
+.Add-On {
+  background-color: #FFA33E;
+  color: white;
   padding-left: 13px;
   padding-bottom: 1em;
 }
