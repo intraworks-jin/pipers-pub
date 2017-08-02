@@ -11,4 +11,6 @@ require('vendor/jquery.waypoints.min');
 
 require('vendor/jquery.appear');
 
+require('vendor/CountDownTimer');
+
 require('custom.min');
