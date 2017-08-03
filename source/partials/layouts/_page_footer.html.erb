@@ -44,14 +44,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<p class="copyright-text">&copy; 2017 <a href="https://www.canaryprint.ca/">Proudly developed by Canary Print + Design</a>. All Rights Reserved.
-				<!-- <br>Images by <a href="https://www.canaryprint.ca/">Canary Print + Design</a></p> -->
+				<p class="copyright-text">&copy; 2017 <%= link_to 'Proudly developed by Canary Print + Design', 'https://www.canaryprint.ca/' %> All Rights Reserved.
 			</div>
 			<div class="col-md-4">
 				<ul class="canarystrap-footer-social right">
-					<!-- <li><a href="#"><i class="icon-twitter"></i></a></li> -->
-					<li><a href="https://www.facebook.com/piperspubltd/"><i class="icon-facebook"></i></a></li>
-					<!-- <li><a href="#"><i class="icon-instagram"></i></a></li> -->
+					<li>
+						<% link_to 'https://www.facebook.com/piperspubltd/' do %>
+						  <%= image_tag 'img/facebook.png' %>
+						<% end %>
+					</li>
 				</ul>
 			</div>
 		</div>

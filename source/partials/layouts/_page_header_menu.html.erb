@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default navbar-fixed-top canarystrap-navbar">
+	<div class="container">
+		<div class="navbar-header">
+			<%= link_to 'Home', '/', :class => 'navbar-brand', :title => 'Home' %>
+		</div>
+
+		<div id="navbar-collapse" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><%= link_to 'Breakfast', '#', :"data-nav-section" => "breakfast" %></li>
+				<li><%= link_to 'Entrees', '#', :"data-nav-section" => "entrees" %></li>
+				<li><%= link_to 'Sandwiches', '#', :"data-nav-section" => "sandwiches" %></li>
+				<li><%= link_to 'Burgers', '#', :"data-nav-section" => "burgers" %></li>
+				<li><%= link_to 'Appetizers', '#', :"data-nav-section" => "appetizers" %></li>
+				<li><%= link_to 'Salad', '#', :"data-nav-section" => "salad" %></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+

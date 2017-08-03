@@ -3,7 +3,7 @@ title: Pipers Pub, Nanaimo BC
 ---
 
 
-<section class="canarystrap-section canarystrap-bg-white">
+<section class="canarystrap-section canarystrap-bg-white" data-section="welcome">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5 text-center canarystrap-animate">
@@ -18,13 +18,13 @@ title: Pipers Pub, Nanaimo BC
 				<br>(Story by Gloria Jean Frank, wife of John Sr.)</p>
 			</div>
 			<div class="col-md-6 col-md-push-1 canarystrap-animate">
-				<p><img src="img/img_1.jpg" alt="David Frank Sr." title="David Frank Sr." class="img-responsive"></p>
+				<p><%= image_tag "img/david_frank.jpg", :alt => 'David Frank Sr.', :title => 'David Frank Sr.', :class => 'img-responsive' %></p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="canarystrap-section-bg overlay" style="background-image: url(img/hero_bg_2.jpg);" data-stellar-background-ratio="0.5" data-section="specialties">
+<section class="canarystrap-section-bg overlay menu-bg" data-stellar-background-ratio="0.5" data-section="menu">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center canarystrap-animate">
@@ -98,14 +98,14 @@ title: Pipers Pub, Nanaimo BC
 							<p class="price">$32.99</p>
 						</div>
 					</div>
-					<br><br><p><%= link_to 'View our full menu', '/menu', :class => "canarystrap-custom-link" %></p><br><br>
+
 				</div>
 			</div>
-		</div>
+		</div><br><br><p class="text-center"><%= link_to 'View our full menu', '/menu', :class => "canarystrap-custom-link" %></p>
 	</div>
 </section>
 
-<section class="canarystrap-section-bg overlay" style="background-image: url(img/hero_bg_4.jpg);" data-stellar-background-ratio="0.5" data-section="menu">
+<section class="canarystrap-section-bg overlay drinks-bg" data-stellar-background-ratio="0.5" data-section="drinks">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center canarystrap-animate">
@@ -197,7 +197,7 @@ title: Pipers Pub, Nanaimo BC
 	</div>
 </section>
 
-<section class="canarystrap-section-bg overlay" style="background-image: url(img/hero_bg_5.jpg);" data-stellar-background-ratio="0.5" data-section="specials">
+<section class="canarystrap-section-bg overlay specials-bg" data-stellar-background-ratio="0.5" data-section="specials">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center canarystrap-animate">
@@ -224,7 +224,7 @@ title: Pipers Pub, Nanaimo BC
 						<td>FOOD<br>Baby Back Ribs<br>Half Rack - $10.95<br>Full Rack - $16.95</td>
 					</tr>
 					<tr>
-						<td>DRINK<br>$4.95 Premium Tap Sleeves<br>Keith's, Millhouse, Granville Island</td>
+						<td>DRINK<br>Premium Tap Sleeves - $4.95<br>Keith's, Millhouse, Granville Island</td>
 					</tr>
 
 					<tr>
@@ -233,7 +233,7 @@ title: Pipers Pub, Nanaimo BC
 						<td>FOOD<br>Burger Night - $9.95</td>
 					</tr>
 					<tr>
-						<td>DRINK<br>$16 Jugs of Premium Beer!</td>
+						<td>DRINK<br>Premium Beer Jugs - $16.00 </td>
 					</tr>
 
 					<tr>
@@ -253,7 +253,7 @@ title: Pipers Pub, Nanaimo BC
 						<td>FOOD<br>Turkey Dinner - $14.95</td>
 					</tr>
 					<tr>
-						<td>DRINK<br>$4 Sleeves Domestic Taps</td>
+						<td>DRINK<br>Domestic Tap Sleeves - $4</td>
 					</tr>
 
 					<tr>
@@ -263,7 +263,7 @@ title: Pipers Pub, Nanaimo BC
 						<td>FOOD<br>Prime Rib<br>8oz - $21.99<br>12oz - $28.99</td>
 					</tr>
 					<tr>
-						<td>DRINK<br>$15 Jugs of Domestic Beer!</td>
+						<td>DRINK<br>Domestic Beer Jugs - $4.00</td>
 					</tr>
 
 					<tr>
@@ -273,7 +273,7 @@ title: Pipers Pub, Nanaimo BC
 						<td>FOOD<br>Brunch!!<br>11am - 2pm </td>
 					</tr>
 					<tr>
-						<td>DRINK<br>Caesar Saturday - $5 Caesers</td>
+						<td>DRINK<br>Caesar Saturday - $5.00</td>
 					</tr>
 
 					<tr>
@@ -283,7 +283,7 @@ title: Pipers Pub, Nanaimo BC
 						<td>FOOD<br>Brunch!!<br>11am-2pm</td>
 					</tr>
 					<tr>
-						<td>DRINK<br>Momosa's for $5.50<br>Proseeco, splash of cranberry juice, OJ</td>
+						<td>DRINK<br>Momosa - $5.50<br>Proseeco, splash of cranberry juice, OJ</td>
 					</tr>
 				</table>
 
@@ -298,12 +298,12 @@ title: Pipers Pub, Nanaimo BC
 					<tr>
 						<th class="day">Monday</th>
 						<td>Baby Back Ribs<br>Half Rack - $10.95<br>Full Rack - $16.95</td>
-						<td>$4.95 Premium Tap Sleeves<br>Keith's, Millhouse, Granville Island</td>
+						<td>Premium Tap Sleeves - $4.95<br>Keith's, Millhouse, Granville Island</td>
 					</tr>
 					<tr>
 						<th class="day">Tuesday</th>
 						<td>Burger Night - $9.95</td>
-						<td>$16 Jugs of Premium Beer!</td>
+						<td>Premium Beer Jugs - $16.00</td>
 					</tr>
 					<tr>
 						<th class="day">Wednesday</th>
@@ -313,22 +313,22 @@ title: Pipers Pub, Nanaimo BC
 					<tr>
 						<th class="day">Thursday</th>
 						<td>Turkey Dinner - $14.95</td>
-						<td>$4 Sleeves Domestic Taps</td>
+						<td>Domestic Tap Sleeves - $4.00</td>
 					</tr>
 					<tr>
 						<th class="day">Friday</th>
 						<td>Prime Rib<br>8oz - $21.99<br>12oz - $28.99</td>
-						<td>$15 Jugs of Domestic Beer!</td>
+						<td>Domestic Beer Jugs - $15.00</td>
 					</tr>
 					<tr>
 						<th class="day">Saturday</th>
 						<td>Brunch!!<br>11am - 2pm </td>
-						<td>Caesar Saturday - $5 Caesers</td>
+						<td>Caesar Saturday! - $5.00</td>
 					</tr>
 					<tr>
 						<th class="day">Sunday</th>
 						<td>Brunch!!<br>11am-2pm</td>
-						<td>Momosa's for $5.50<br>Proseeco, splash of cranberry juice, OJ</td>
+						<td>Momosa's - $5.50<br>Proseeco, splash of cranberry juice, OJ</td>
 					</tr>
 				</table>
 			</div>
@@ -336,7 +336,7 @@ title: Pipers Pub, Nanaimo BC
 	</div>
 </section>
 
-<section class="canarystrap-section-bg overlay" style="background-image: url(img/hero_bg_5.jpg);" data-stellar-background-ratio="0.5" data-section="events">
+<section class="canarystrap-section-bg overlay events-bg" data-stellar-background-ratio="0.5" data-section="events">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center canarystrap-animate">
@@ -353,23 +353,16 @@ title: Pipers Pub, Nanaimo BC
 		<div class="row">
 			<div class="col-md-4 col-sm-4 canarystrap-animate">
 				<div class="canarystrap-block-image">
-					<figure><img src="img/jones.jpg" alt="Free Bootstrap Template by canarystrap.com"></figure>
-					<div class="text">
-						<span class="date">July 29, 2017</span>
-						<h3><a href="#">Cormier VS Jones Round 2!</a></h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
-						<%= link_to 'Read more', '/event', :class => "canarystrap-custom-link link-sm" %>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 canarystrap-animate">
-				<div class="canarystrap-block-image">
-					<figure><img src="img/mayweather.jpg" alt="Free Bootstrap Template by canarystrap.com"></figure>
+					<figure>
+						<% link_to '/events/mayweather-vs-mcgregor' do %>
+						  <%= image_tag "img/events/mayweather.jpg", :alt => 'McGregor VS Mayweather', :title => 'McGregor VS Mayweather' %>
+						<% end %>
+					</figure>
 					<div class="text">
 						<span class="date">August 26, 2017</span>
-						<h3><a href="#">McGregor VS Mayweather</a></h3>
+						<h3><%= link_to 'McGregor VS Mayweather', '/events/mayweather-vs-mcgregor' %></h3>
 						<p>Come in for the fight of the decade!! This is going to be huge, and we expect a full house this night!</p>
-						<%= link_to 'Read more', '/events/mayweather-vs-macgregor', :class => "canarystrap-custom-link link-sm" %>
+						<%= link_to 'Read more', '/events/mayweather-vs-mcgregor', :class => "canarystrap-custom-link link-sm" %>
 					</div>
 				</div>
 			</div>
