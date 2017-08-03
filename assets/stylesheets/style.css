@@ -4,24 +4,24 @@ section[data-section=menu] {
 		z-index: -1
 }
 
-.probootstrap-section {
+.canarystrap-section {
 		padding: 7em 0
 }
 
-.probootstrap-section.probootstrap-border-top {
+.canarystrap-section.canarystrap-border-top {
 		border-top: 1px solid rgba(0, 0, 0, .1)
 }
 
-.probootstrap-section.probootstrap-border-bottom {
+.canarystrap-section.canarystrap-border-bottom {
 		border-bottom: 1px solid rgba(0, 0, 0, .1)
 }
 
-.probootstrap-section>.container.probootstrap-border-top {
+.canarystrap-section>.container.canarystrap-border-top {
 		padding-top: 50px;
 		border-top: 1px solid rgba(0, 0, 0, .1)
 }
 
-.probootstrap-section.probootstrap-bg-white {
+.canarystrap-section.canarystrap-bg-white {
 		background: #fff
 }
 
@@ -29,12 +29,12 @@ section[data-section=menu] {
 		section[data-section=menu] {
 				margin-top: 0
 		}
-		.probootstrap-section {
+		.canarystrap-section {
 				padding: 3em 0
 		}
 }
 
-.probootstrap-section-bg {
+.canarystrap-section-bg {
 		background-size: cover;
 		background-repeat: no-repeat;
 		padding: 7em 0;
@@ -42,7 +42,7 @@ section[data-section=menu] {
 		height: 600px
 }
 
-.probootstrap-section-bg.overlay:before {
+.canarystrap-section-bg.overlay:before {
 		content: "";
 		background: rgba(0, 0, 0, .2);
 		position: absolute;
@@ -52,112 +52,112 @@ section[data-section=menu] {
 		bottom: 0
 }
 
-.probootstrap-section-bg .probootstrap-heading {
+.canarystrap-section-bg .canarystrap-heading {
 		margin-top: 250px
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-section-bg {
+		.canarystrap-section-bg {
 				padding: 3em 0;
 				height: 300px
 		}
-		.probootstrap-section-bg .probootstrap-heading {
+		.canarystrap-section-bg .canarystrap-heading {
 				margin-top: 50px
 		}
 }
 
-.probootstrap-footer {
+.canarystrap-footer {
 		background: #000;
 		padding: 7em 0;
 		color: rgba(255, 255, 255, .7)
 }
 
-.probootstrap-footer h3 {
+.canarystrap-footer h3 {
 		font-size: 18px;
 		letter-spacing: .2em;
 		text-transform: uppercase;
 		color: #fff
 }
 
-.probootstrap-footer .probootstrap-footer-widget {
+.canarystrap-footer .canarystrap-footer-widget {
 		margin-bottom: 0
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-footer {
+		.canarystrap-footer {
 				padding: 2em 0
 		}
-		.probootstrap-footer .probootstrap-footer-widget {
+		.canarystrap-footer .canarystrap-footer-widget {
 				margin-bottom: 20px
 		}
 }
 
-.probootstrap-copyright {
+.canarystrap-copyright {
 		background: #262626;
 		padding: 20px 0
 }
 
-.probootstrap-copyright a {
+.canarystrap-copyright a {
 		color: rgba(255, 255, 255, .2)
 }
 
-.probootstrap-copyright a:hover {
+.canarystrap-copyright a:hover {
 		color: #fff
 }
 
-.probootstrap-copyright p {
+.canarystrap-copyright p {
 		font-size: 14px
 }
 
-.probootstrap-copyright p:last-child {
+.canarystrap-copyright p:last-child {
 		margin-bottom: 0
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-copyright p.copyright-text {
+		.canarystrap-copyright p.copyright-text {
 				margin-bottom: 20px
 		}
 }
 
-.probootstrap-footer-social {
+.canarystrap-footer-social {
 		padding: 0;
 		margin: 0
 }
 
-.probootstrap-footer-social.right {
+.canarystrap-footer-social.right {
 		text-align: right
 }
 
-.probootstrap-footer-social li {
+.canarystrap-footer-social li {
 		display: inline;
 		padding: 0;
 		margin: 0;
 		list-style: none
 }
 
-.probootstrap-footer-social li a {
+.canarystrap-footer-social li a {
 		padding: 10px;
 		font-size: 22px
 }
 
-.probootstrap-footer-social li:first-child>a {
+.canarystrap-footer-social li:first-child>a {
 		padding-left: 0
 }
 
-.probootstrap-block-image {
+.canarystrap-block-image {
 		background: #fff;
 		margin-bottom: 30px
 }
 
-.probootstrap-block-image figure img {
+.canarystrap-block-image figure img {
 		max-width: 100%
 }
 
-.probootstrap-block-image .text {
+.canarystrap-block-image .text {
 		padding: 20px
 }
 
-.probootstrap-block-image .text .date {
+.canarystrap-block-image .text .date {
 		display: block;
 		color: #999;
 		font-size: 12px;
@@ -165,24 +165,24 @@ section[data-section=menu] {
 		text-transform: uppercase
 }
 
-.probootstrap-block-image .text h3 {
+.canarystrap-block-image .text h3 {
 		margin: 0 0 10px;
 		font-size: 20px
 }
 
-.probootstrap-block-image .text h3 a {
+.canarystrap-block-image .text h3 a {
 		color: #000
 }
 
-.probootstrap-block-image .text h3 a:hover {
+.canarystrap-block-image .text h3 a:hover {
 		color: #FFA33E
 }
 
-.probootstrap-block-image .text p:last-child {
+.canarystrap-block-image .text p:last-child {
 		margin-bottom: 0
 }
 
-.probootstrap-custom-link {
+.canarystrap-custom-link {
 		font-size: 16px;
 		text-transform: uppercase;
 		color: #000;
@@ -192,11 +192,11 @@ section[data-section=menu] {
 		padding-bottom: 5px
 }
 
-.probootstrap-custom-link.link-sm {
+.canarystrap-custom-link.link-sm {
 		font-size: 14px
 }
 
-.probootstrap-custom-link:before {
+.canarystrap-custom-link:before {
 		content: "";
 		display: block;
 		width: 0;
@@ -209,7 +209,7 @@ section[data-section=menu] {
 		transition: width .5s
 }
 
-.probootstrap-custom-link:after {
+.canarystrap-custom-link:after {
 		z-index: 1;
 		position: absolute;
 		bottom: 0;
@@ -220,11 +220,11 @@ section[data-section=menu] {
 		background: #000
 }
 
-.probootstrap-custom-link:hover {
+.canarystrap-custom-link:hover {
 		color: #000
 }
 
-.probootstrap-custom-link:hover:before {
+.canarystrap-custom-link:hover:before {
 		width: 100%;
 		background: #FFA33E
 }
@@ -386,12 +386,12 @@ th, td {
   .mobile {
     visibility: visible;
   }
-  
+
   th, td {
     border-bottom: none;
     text-align: center;
   }
-  
+
   .tablet_web {
     display: none;
   }
@@ -401,14 +401,14 @@ th, td {
   .mobile {
     display: none;
   }
-  
+
   .tablet_web {
     visibility: visible;
   }
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-footer-social.right {
+		.canarystrap-footer-social.right {
 				text-align: left
 		}
 		.menus li .text h3 {
@@ -422,7 +422,7 @@ th, td {
 		}
 }
 
-.probootstrap-cell-retro {
+.canarystrap-cell-retro {
 		width: 100%;
 		float: left;
 		display: -webkit-box;
@@ -434,19 +434,19 @@ th, td {
 		position: relative
 }
 
-.probootstrap-cell-retro .half {
+.canarystrap-cell-retro .half {
 		width: 50%;
 		float: left
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-cell-retro .half {
+		.canarystrap-cell-retro .half {
 				width: 100%;
 				margin-top: 0
 		}
 }
 
-.probootstrap-cell {
+.canarystrap-cell {
 		background: #fff;
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -456,42 +456,42 @@ th, td {
 		position: relative
 }
 
-.modal .probootstrap-modal-flex .probootstrap-modal-figure,
-.probootstrap-cell .image {
+.modal .canarystrap-modal-flex .canarystrap-modal-figure,
+.canarystrap-cell .image {
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat
 }
 
-.probootstrap-cell .image,
-.probootstrap-cell .text {
+.canarystrap-cell .image,
+.canarystrap-cell .text {
 		width: 50%
 }
 
 @media screen and (max-width:992px) {
-		.probootstrap-cell .image,
-		.probootstrap-cell .text {
+		.canarystrap-cell .image,
+		.canarystrap-cell .text {
 				width: 100%
 		}
-		.probootstrap-cell .image {
+		.canarystrap-cell .image {
 				height: 200px
 		}
 }
 
-.probootstrap-cell .text {
+.canarystrap-cell .text {
 		padding: 40px;
 		position: relative
 }
 
-.probootstrap-cell .text h3 {
+.canarystrap-cell .text h3 {
 		margin: 0 0 10px;
 		font-size: 18px;
 		text-transform: uppercase;
 		color: #000
 }
 
-.probootstrap-cell .text:before,
-.probootstrap-cell.reverse .text:before {
+.canarystrap-cell .text:before,
+.canarystrap-cell.reverse .text:before {
 		z-index: 22;
 		top: 15%;
 		content: " ";
@@ -500,16 +500,16 @@ th, td {
 		pointer-events: none
 }
 
-.probootstrap-cell .text p:last-child {
+.canarystrap-cell .text p:last-child {
 		margin-bottom: 0
 }
 
-.probootstrap-cell .text p.price {
+.canarystrap-cell .text p.price {
 		font-size: 20px;
 		color: #FFA33E
 }
 
-.probootstrap-cell .text:before {
+.canarystrap-cell .text:before {
 		right: 100%;
 		border: solid transparent;
 		width: 0;
@@ -519,7 +519,7 @@ th, td {
 		border-width: 12px
 }
 
-.probootstrap-cell.reverse .image {
+.canarystrap-cell.reverse .image {
 		position: absolute;
 		right: 0;
 		width: 50%;
@@ -527,13 +527,13 @@ th, td {
 }
 
 @media screen and (max-width:992px) {
-		.probootstrap-cell.reverse .image {
+		.canarystrap-cell.reverse .image {
 				position: relative;
 				width: 100%
 		}
 }
 
-.probootstrap-cell.reverse .text:before {
+.canarystrap-cell.reverse .text:before {
 		left: 100%;
 		border: solid transparent;
 		width: 0;
@@ -544,18 +544,18 @@ th, td {
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-cell .text:before,
-		.probootstrap-cell.reverse .text:before {
+		.canarystrap-cell .text:before,
+		.canarystrap-cell.reverse .text:before {
 				display: none
 		}
 }
 
-.probootstrap-gallery {
+.canarystrap-gallery {
 		width: 100%;
 		float: left
 }
 
-.probootstrap-gallery figure {
+.canarystrap-gallery figure {
 		display: block;
 		width: 32%;
 		margin-right: 2%;
@@ -563,46 +563,46 @@ th, td {
 		margin-bottom: 20px
 }
 
-.probootstrap-gallery figure:nth-of-type(3n+3) {
+.canarystrap-gallery figure:nth-of-type(3n+3) {
 		margin-right: 0
 }
 
-.probootstrap-gallery figure figcaption {
+.canarystrap-gallery figure figcaption {
 		display: none
 }
 
-.probootstrap-gallery img {
+.canarystrap-gallery img {
 		width: 100%;
 		height: auto
 }
 
-.probootstrap-gallery.four-col figure {
+.canarystrap-gallery.four-col figure {
 		width: 23.5%;
 		margin-right: 2%;
 		float: left
 }
 
-.probootstrap-gallery.four-col figure:nth-of-type(4n+4) {
+.canarystrap-gallery.four-col figure:nth-of-type(4n+4) {
 		margin-right: 0
 }
 
-.probootstrap-gallery.three-col figure {
+.canarystrap-gallery.three-col figure {
 		width: 32%;
 		margin-right: 2%;
 		float: left
 }
 
-.probootstrap-gallery.three-col figure:nth-of-type(3n+3) {
+.canarystrap-gallery.three-col figure:nth-of-type(3n+3) {
 		margin-right: 0
 }
 
-.probootstrap-gallery.two-col figure {
+.canarystrap-gallery.two-col figure {
 		width: 49%;
 		margin-right: 2%;
 		float: left
 }
 
-.probootstrap-gallery.two-col figure:nth-of-type(2n+2) {
+.canarystrap-gallery.two-col figure:nth-of-type(2n+2) {
 		margin-right: 0
 }
 
@@ -717,7 +717,7 @@ th, td {
 		}
 }
 
-.probootstrap-gallery-item {
+.canarystrap-gallery-item {
 		padding: 0;
 		margin: 0 0 20px;
 		list-style: none;
@@ -726,31 +726,31 @@ th, td {
 		position: relative
 }
 
-.probootstrap-gallery-item img {
+.canarystrap-gallery-item img {
 		max-width: 100%;
 		-webkit-transition: .3s all;
 		transition: .3s all
 }
 
-.probootstrap-gallery-item a {
+.canarystrap-gallery-item a {
 		display: block;
 		float: left;
 		width: 100%
 }
 
-.probootstrap-gallery-item:hover img {
+.canarystrap-gallery-item:hover img {
 		opacity: .7
 }
 
-.probootstrap-form {
+.canarystrap-form {
 		margin-bottom: 50px
 }
 
-.probootstrap-form label {
+.canarystrap-form label {
 		font-weight: 400
 }
 
-.probootstrap-form .form-control {
+.canarystrap-form .form-control {
 		height: 46px;
 		-webkit-box-shadow: none;
 		box-shadow: none;
@@ -760,18 +760,18 @@ th, td {
 		appearance: none
 }
 
-.probootstrap-form .form-control:active,
-.probootstrap-form .form-control:focus {
+.canarystrap-form .form-control:active,
+.canarystrap-form .form-control:focus {
 		-webkit-box-shadow: none;
 		box-shadow: none;
 		border-color: #FFA33E
 }
 
-.probootstrap-form .form-group .form-field {
+.canarystrap-form .form-group .form-field {
 		position: relative
 }
 
-.probootstrap-form .form-group .form-field .icon {
+.canarystrap-form .form-group .form-field .icon {
 		position: absolute;
 		top: 50%;
 		-webkit-transform: translateY(-50%);
@@ -779,16 +779,16 @@ th, td {
 		right: 20px
 }
 
-.probootstrap-form .form-group .form-field .form-control {
+.canarystrap-form .form-group .form-field .form-control {
 		padding-right: 50px
 }
 
-.probootstrap-form textarea.form-control {
+.canarystrap-form textarea.form-control {
 		height: inherit;
 		resize: vertical
 }
 
-.probootstrap-animate {
+.canarystrap-animate {
 		opacity: 0;
 		visibility: hidden
 }
@@ -809,7 +809,7 @@ th, td {
 		font-size: 26px
 }
 
-.modal .probootstrap-modal-flex {
+.modal .canarystrap-modal-flex {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -817,11 +817,11 @@ th, td {
 		flex-wrap: wrap
 }
 
-.modal .probootstrap-modal-flex .probootstrap-modal-figure {
+.modal .canarystrap-modal-flex .canarystrap-modal-figure {
 		width: 40%
 }
 
-.modal .probootstrap-modal-flex .probootstrap-modal-content {
+.modal .canarystrap-modal-flex .canarystrap-modal-content {
 		width: 60%;
 		padding: 40px;
 		position: relative
@@ -832,39 +832,39 @@ th, td {
 				top: 20px;
 				right: 20px
 		}
-		.modal .probootstrap-modal-flex .probootstrap-modal-figure {
+		.modal .canarystrap-modal-flex .canarystrap-modal-figure {
 				height: 200px
 		}
-		.modal .probootstrap-modal-flex .probootstrap-modal-content {
+		.modal .canarystrap-modal-flex .canarystrap-modal-content {
 				padding-left: 15px;
 				padding-right: 15px
 		}
-		.modal .probootstrap-modal-flex .probootstrap-modal-content,
-		.modal .probootstrap-modal-flex .probootstrap-modal-figure {
+		.modal .canarystrap-modal-flex .canarystrap-modal-content,
+		.modal .canarystrap-modal-flex .canarystrap-modal-figure {
 				width: 100%
 		}
-		.modal .probootstrap-modal-flex .btn {
+		.modal .canarystrap-modal-flex .btn {
 				margin-bottom: 10px
 		}
 }
 
-.modal .probootstrap-modal-flex .form-control {
+.modal .canarystrap-modal-flex .form-control {
 		height: 40px
 }
 
-.modal .probootstrap-modal-flex .probootstrap-remember {
+.modal .canarystrap-modal-flex .canarystrap-remember {
 		float: left
 }
 
-.modal .probootstrap-modal-flex .probootstrap-forgot {
+.modal .canarystrap-modal-flex .canarystrap-forgot {
 		float: right
 }
 
-.modal .probootstrap-modal-flex .form-group {
+.modal .canarystrap-modal-flex .form-group {
 		position: relative
 }
 
-.modal .probootstrap-modal-flex .probootstrap-or {
+.modal .canarystrap-modal-flex .canarystrap-or {
 		padding: 10px 0;
 		text-align: center;
 		display: block;
@@ -872,11 +872,11 @@ th, td {
 		text-transform: uppercase
 }
 
-.modal .probootstrap-modal-flex .probootstrap-or>span {
+.modal .canarystrap-modal-flex .canarystrap-or>span {
 		display: block
 }
 
-.modal .probootstrap-modal-flex .probootstrap-or>span:before {
+.modal .canarystrap-modal-flex .canarystrap-or>span:before {
 		height: 1px;
 		left: 0;
 		right: 0;
@@ -887,7 +887,7 @@ th, td {
 		position: absolute
 }
 
-.modal .probootstrap-modal-flex .probootstrap-or em {
+.modal .canarystrap-modal-flex .canarystrap-or em {
 		color: #ccc;
 		display: inline-block;
 		background: #fff;
@@ -897,19 +897,19 @@ th, td {
 		font-style: normal
 }
 
-.modal .probootstrap-modal-flex .btn-connect-facebook {
+.modal .canarystrap-modal-flex .btn-connect-facebook {
 		background: #3b5998;
 		border-color: #3b5998;
 		color: #fff
 }
 
-.modal .probootstrap-modal-flex .btn-connect-twitter {
+.modal .canarystrap-modal-flex .btn-connect-twitter {
 		background: #1da1f2;
 		border-color: #1da1f2;
 		color: #fff
 }
 
-.modal .probootstrap-modal-flex .btn-connect-google {
+.modal .canarystrap-modal-flex .btn-connect-google {
 		background: #ea4335;
 		border-color: #ea4335;
 		color: #fff
@@ -935,12 +935,12 @@ th, td {
 		pointer-events: all
 }
 
-.probootstrap-contact-info {
+.canarystrap-contact-info {
 		padding: 0;
 		margin: 0 0 30px
 }
 
-.probootstrap-contact-info li {
+.canarystrap-contact-info li {
 		padding: 0;
 		margin: 20px 0 15px;
 		list-style: none;
@@ -948,24 +948,24 @@ th, td {
 }
 
 .proboostrap-clients .client-logo,
-.probootstrap-team {
+.canarystrap-team {
 		margin-bottom: 30px
 }
 
-.probootstrap-contact-info li>i,
-.probootstrap-contact-info li>span {
+.canarystrap-contact-info li>i,
+.canarystrap-contact-info li>span {
 		vertical-align: top;
 		display: table-cell
 }
 
-.probootstrap-contact-info li>i {
+.canarystrap-contact-info li>i {
 		font-size: 20px;
 		position: relative;
 		top: 2px;
 		width: 30px
 }
 
-.probootstrap-team {
+.canarystrap-team {
 		float: left;
 		display: block;
 		position: relative;
@@ -974,14 +974,14 @@ th, td {
 		border-radius: 6px
 }
 
-.probootstrap-team img {
+.canarystrap-team img {
 		-webkit-transition: .3s all;
 		transition: .3s all;
 		-webkit-transition-timing-function: cubic-bezier(.57, .21, .69, 1.25);
 		transition-timing-function: cubic-bezier(.57, .21, .69, 1.25)
 }
 
-.probootstrap-team .probootstrap-team-info {
+.canarystrap-team .canarystrap-team-info {
 		visibility: hidden;
 		opacity: 0;
 		position: absolute;
@@ -999,27 +999,27 @@ th, td {
 		display: block
 }
 
-.probootstrap-team .probootstrap-team-info h3 {
+.canarystrap-team .canarystrap-team-info h3 {
 		color: #fff
 }
 
-.probootstrap-team .probootstrap-team-info h3 .position {
+.canarystrap-team .canarystrap-team-info h3 .position {
 		display: block;
 		font-size: 14px;
 		color: rgba(255, 255, 255, .4)
 }
 
 @media screen and (max-width:480px) {
-		.modal .probootstrap-modal-flex .probootstrap-forgot {
+		.modal .canarystrap-modal-flex .canarystrap-forgot {
 				float: left
 		}
-		.probootstrap-team {
+		.canarystrap-team {
 				overflow: visible
 		}
-		.probootstrap-team img {
+		.canarystrap-team img {
 				max-width: 100%
 		}
-		.probootstrap-team .probootstrap-team-info {
+		.canarystrap-team .canarystrap-team-info {
 				position: relative;
 				top: inherit!important;
 				margin-top: 0!important;
@@ -1028,21 +1028,21 @@ th, td {
 				-webkit-transform: translateY(0);
 				transform: translateY(0)
 		}
-		.probootstrap-team .probootstrap-team-info h3 {
+		.canarystrap-team .canarystrap-team-info h3 {
 				color: rgba(0, 0, 0, .7)
 		}
-		.probootstrap-team .probootstrap-team-info h3 .position {
+		.canarystrap-team .canarystrap-team-info h3 .position {
 				display: block;
 				font-size: 14px;
 				color: rgba(0, 0, 0, .4)
 		}
-		.probootstrap-team:focus:before,
-		.probootstrap-team:hover:before {
+		.canarystrap-team:focus:before,
+		.canarystrap-team:hover:before {
 				display: none
 		}
 }
 
-.probootstrap-team:before {
+.canarystrap-team:before {
 		visibility: hidden;
 		opacity: 0;
 		position: absolute;
@@ -1059,39 +1059,39 @@ th, td {
 }
 
 .flexslider,
-.probootstrap-pricing,
-.probootstrap-pricing-wrap {
+.canarystrap-pricing,
+.canarystrap-pricing-wrap {
 		position: relative
 }
 
-.probootstrap-team:focus img,
-.probootstrap-team:hover img {
+.canarystrap-team:focus img,
+.canarystrap-team:hover img {
 		-webkit-transform: scale(1.1);
 		transform: scale(1.1)
 }
 
-.probootstrap-team:focus:before,
-.probootstrap-team:hover:before {
+.canarystrap-team:focus:before,
+.canarystrap-team:hover:before {
 		visibility: visible;
 		opacity: 1
 }
 
-.probootstrap-team:focus .probootstrap-team-info,
-.probootstrap-team:hover .probootstrap-team-info {
+.canarystrap-team:focus .canarystrap-team-info,
+.canarystrap-team:hover .canarystrap-team-info {
 		opacity: 1;
 		visibility: visible;
 		margin-top: 0
 }
 
-.probootstrap-flex-section {
+.canarystrap-flex-section {
 		padding: 7em 0
 }
 
-.probootstrap-flex-section.probootstrap-bg-white {
+.canarystrap-flex-section.canarystrap-bg-white {
 		background: #fff
 }
 
-.probootstrap-bg-color {
+.canarystrap-bg-color {
   background-color: #FFA33E;
 }
 
@@ -1101,7 +1101,7 @@ th, td {
 		}
 }
 
-.probootstrap-pricing {
+.canarystrap-pricing {
 		background: #fff;
 		float: left;
 		width: 100%;
@@ -1114,32 +1114,32 @@ th, td {
 }
 
 @media screen and (max-width:992px) {
-		.probootstrap-pricing {
+		.canarystrap-pricing {
 				margin-top: 0!important;
 				margin-bottom: 30px
 		}
 }
 
-.probootstrap-pricing.popular {
+.canarystrap-pricing.popular {
 		z-index: 10;
 		margin-top: -215px;
 		padding-top: 40px
 }
 
 @media screen and (max-width:992px) {
-		.probootstrap-pricing.popular {
+		.canarystrap-pricing.popular {
 				margin-top: 0!important
 		}
 }
 
-.probootstrap-pricing h3 {
+.canarystrap-pricing h3 {
 		font-size: 16px;
 		text-transform: uppercase;
 		letter-spacing: .1em;
 		margin-bottom: 50px
 }
 
-.probootstrap-pricing h3>span {
+.canarystrap-pricing h3>span {
 		margin-top: 10px;
 		display: block;
 		text-transform: none;
@@ -1148,11 +1148,11 @@ th, td {
 		font-size: 14px
 }
 
-.probootstrap-pricing .probootstrap-price-wrap {
+.canarystrap-pricing .canarystrap-price-wrap {
 		margin-bottom: 50px
 }
 
-.probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
+.canarystrap-pricing .canarystrap-price-wrap .canarystrap-price {
 		font-size: 50px;
 		color: #FFA33E;
 		font-weight: 100;
@@ -1160,59 +1160,59 @@ th, td {
 		margin-bottom: 10px
 }
 
-.probootstrap-pricing .probootstrap-price-wrap .probootstrap-price-per-month {
+.canarystrap-pricing .canarystrap-price-wrap .canarystrap-price-per-month {
 		font-size: 13px
 }
 
-.probootstrap-pricing ul {
+.canarystrap-pricing ul {
 		padding: 0 30px;
 		margin: 0 0 50px
 }
 
 @media screen and (max-width:480px) {
-		.probootstrap-pricing ul {
+		.canarystrap-pricing ul {
 				padding: 0 10px
 		}
 }
 
-.probootstrap-pricing ul li {
+.canarystrap-pricing ul li {
 		padding: 0;
 		margin: 0 0 20px;
 		line-height: 24px;
 		list-style: none
 }
 
-.probootstrap-testimony-wrap {
+.canarystrap-testimony-wrap {
 		border-radius: 4px;
 		padding: 20px
 }
 
-.probootstrap-testimony-wrap figure {
+.canarystrap-testimony-wrap figure {
 		margin-bottom: 20px
 }
 
-.probootstrap-testimony-wrap figure img {
+.canarystrap-testimony-wrap figure img {
 		height: 80px;
 		width: 80px!important;
 		margin: 0 auto;
 		border-radius: 50%
 }
 
-.probootstrap-testimony-wrap blockquote {
+.canarystrap-testimony-wrap blockquote {
 		border-left: none;
 		padding: 0;
 		margin-bottom: 0;
 		color: #000
 }
 
-.probootstrap-testimony-wrap blockquote cite {
+.canarystrap-testimony-wrap blockquote cite {
 		margin-top: 30px;
 		display: block;
 		font-size: 14px;
 		color: rgba(0, 0, 0, .3)
 }
 
-.probootstrap-testimony-wrap blockquote cite span {
+.canarystrap-testimony-wrap blockquote cite span {
 		font-style: normal;
 		color: #000;
 		font-weight: 700
@@ -1223,7 +1223,7 @@ th, td {
 		padding-top: 20px
 }
 
-.owl-carousel-testimony .probootstrap-testimony-wrap {
+.owl-carousel-testimony .canarystrap-testimony-wrap {
 		border: 1px solid #f2f2f2;
 		max-width: 700px;
 		margin: 0 auto;
@@ -1237,7 +1237,7 @@ th, td {
 		height: 750px
 }
 
-.probootstrap-heading .primary-heading {
+.canarystrap-heading .primary-heading {
 		font-family: "Pinyon Script", serif;
 		color: #FFA33E;
 		margin: 0;
@@ -1246,12 +1246,12 @@ th, td {
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-heading .primary-heading {
+		.canarystrap-heading .primary-heading {
 				font-size: 70px
 		}
 }
 
-.probootstrap-heading .secondary-heading {
+.canarystrap-heading .secondary-heading {
 		text-transform: uppercase;
 		color: #fff;
 		margin: 0;
@@ -1265,17 +1265,17 @@ th, td {
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-heading .secondary-heading {
+		.canarystrap-heading .secondary-heading {
 				font-size: 40px;
       padding-top: 2em;
 		}
 }
 
-.probootstrap-heading.dark .secondary-heading {
+.canarystrap-heading.dark .secondary-heading {
 		color: #000
 }
 
-.probootstrap-heading .seperator {
+.canarystrap-heading .seperator {
 		display: block;
 		margin: 0 auto 10px;
 		color: #ccc;
@@ -1289,7 +1289,7 @@ th, td {
 		margin: 0
 }
 
-.flexslider .probootstrap-slider-text {
+.flexslider .canarystrap-slider-text {
 		margin-top: 300px
 }
 
@@ -1299,7 +1299,7 @@ th, td {
 		.slider-height {
 				height: 400px
 		}
-		.flexslider .probootstrap-slider-text {
+		.flexslider .canarystrap-slider-text {
 				margin-top: 150px
 		}
 		.flexslider .flex-direction-nav {
@@ -1307,13 +1307,13 @@ th, td {
 		}
 }
 
-.flexslider .probootstrap-slider-text .sub-heading {
+.flexslider .canarystrap-slider-text .sub-heading {
 		font-size: 20px;
 		margin-top: -40px;
 		color: rgba(255, 255, 255, .7)
 }
 
-.flexslider .probootstrap-slider-text .sub-heading a {
+.flexslider .canarystrap-slider-text .sub-heading a {
 		color: #fff
 }
 
@@ -1550,37 +1550,37 @@ th, td {
 		border: 2px solid #000
 }
 
-.probootstrap-gutter0>div[class*=col-] {
+.canarystrap-gutter0>div[class*=col-] {
 		padding-right: 0;
 		padding-left: 0
 }
 
 @media screen and (max-width:480px) {
-		.probootstrap-gutter0>div[class*=col-] {
+		.canarystrap-gutter0>div[class*=col-] {
 				padding-right: 15px;
 				padding-left: 15px
 		}
 }
 
-.probootstrap-gutter40>div[class*=col-] {
+.canarystrap-gutter40>div[class*=col-] {
 		padding-right: 20px;
 		padding-left: 20px
 }
 
 @media screen and (max-width:480px) {
-		.probootstrap-gutter40>div[class*=col-] {
+		.canarystrap-gutter40>div[class*=col-] {
 				padding-right: 15px;
 				padding-left: 15px
 		}
 }
 
-.probootstrap-gutter60>div[class*=col-] {
+.canarystrap-gutter60>div[class*=col-] {
 		padding-right: 30px;
 		padding-left: 30px
 }
 
 @media screen and (max-width:480px) {
-		.probootstrap-gutter60>div[class*=col-] {
+		.canarystrap-gutter60>div[class*=col-] {
 				padding-right: 15px;
 				padding-left: 15px
 		}

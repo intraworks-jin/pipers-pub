@@ -1,5 +1,5 @@
 .hero-text-heading,
-.probootstrap-hero h1 {
+.canarystrap-hero h1 {
 		font-size: 52px;
 		font-weight: 300;
 		margin-bottom: 10px;
@@ -10,14 +10,14 @@
 
 @media screen and (max-width:768px) {
 		.hero-text-heading,
-		.probootstrap-hero h1 {
+		.canarystrap-hero h1 {
 				font-size: 40px;
 				line-height: 1.5
 		}
 }
 
-.probootstrap-navbar .dropdown-submenu>a:before,
-.probootstrap-navbar .dropdown>a:before {
+.canarystrap-navbar .dropdown-submenu>a:before,
+.canarystrap-navbar .dropdown>a:before {
 		font-family: icomoon;
 		line-height: 1;
 		font-weight: 400;
@@ -30,23 +30,23 @@
 
 @media screen and (max-width:480px) {
 		.hero-text-heading,
-		.probootstrap-hero h1 {
+		.canarystrap-hero h1 {
 				font-size: 30px
 		}
 }
 
 .hero-text-subheading,
-.probootstrap-hero p {
+.canarystrap-hero p {
 		font-size: 16px;
 		color: rgba(255, 255, 255, .9)
 }
 
 .hero-text-subheading:last-child,
-.probootstrap-hero p:last-child {
+.canarystrap-hero p:last-child {
 		margin-bottom: 0
 }
 
-.probootstrap-navbar {
+.canarystrap-navbar {
 		border: none;
 		-webkit-box-shadow: none;
 		box-shadow: none;
@@ -58,83 +58,83 @@
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar {
+		.canarystrap-navbar {
 				background: #fff;
 				-webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
 				box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1)
 		}
 }
 
-.probootstrap-navbar .navbar-toggle:focus,
-.probootstrap-navbar .navbar-toggle:hover {
+.canarystrap-navbar .navbar-toggle:focus,
+.canarystrap-navbar .navbar-toggle:hover {
 		background-color: transparent
 }
 
-.probootstrap-navbar .navbar-toggle {
+.canarystrap-navbar .navbar-toggle {
 		border: none
 }
 
-.probootstrap-navbar .navbar-toggle span.icon-bar {
+.canarystrap-navbar .navbar-toggle span.icon-bar {
 		-webkit-transition: all .15s;
 		transition: all .15s
 }
 
-.probootstrap-navbar .navbar-toggle span:nth-child(2) {
+.canarystrap-navbar .navbar-toggle span:nth-child(2) {
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 		-webkit-transform-origin: 10% 10%;
 		transform-origin: 10% 10%
 }
 
-.probootstrap-navbar .navbar-toggle span:nth-child(3) {
+.canarystrap-navbar .navbar-toggle span:nth-child(3) {
 		opacity: 0
 }
 
-.probootstrap-navbar .navbar-toggle span:nth-child(4) {
+.canarystrap-navbar .navbar-toggle span:nth-child(4) {
 		-webkit-transform: rotate(-45deg);
 		transform: rotate(-45deg);
 		-webkit-transform-origin: 10% 90%;
 		transform-origin: 10% 90%
 }
 
-.probootstrap-navbar .navbar-toggle.collapsed span:nth-child(2),
-.probootstrap-navbar .navbar-toggle.collapsed span:nth-child(4) {
+.canarystrap-navbar .navbar-toggle.collapsed span:nth-child(2),
+.canarystrap-navbar .navbar-toggle.collapsed span:nth-child(4) {
 		-webkit-transform: rotate(0);
 		transform: rotate(0)
 }
 
-.probootstrap-navbar .navbar-toggle.collapsed span:nth-child(3) {
+.canarystrap-navbar .navbar-toggle.collapsed span:nth-child(3) {
 		opacity: 1
 }
 
-.probootstrap-navbar .navbar-brand,
-.probootstrap-navbar .navbar-nav>li>a,
-.probootstrap-navbar .parent-nav-link-padding {
+.canarystrap-navbar .navbar-brand,
+.canarystrap-navbar .navbar-nav>li>a,
+.canarystrap-navbar .parent-nav-link-padding {
 		margin-left: 15px;
 		margin-right: 15px;
 		padding: 54px 0
 }
 
-.probootstrap-navbar .dropdown-header {
+.canarystrap-navbar .dropdown-header {
 		color: rgba(255, 255, 255, .2);
 		padding-left: 10px;
 		text-transform: uppercase
 }
 
-.probootstrap-navbar .dropdown>a {
+.canarystrap-navbar .dropdown>a {
 		padding-right: 10px!important;
 		position: relative;
 		display: block
 }
 
 @media screen and (max-width:480px) {
-		.probootstrap-navbar .dropdown>a {
+		.canarystrap-navbar .dropdown>a {
 				display: block;
 				padding-right: 0
 		}
 }
 
-.probootstrap-navbar .dropdown>a:before {
+.canarystrap-navbar .dropdown>a:before {
 		text-transform: none;
 		position: absolute;
 		top: 50%;
@@ -149,76 +149,76 @@
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar .navbar-brand,
-		.probootstrap-navbar .navbar-nav>li>a,
-		.probootstrap-navbar .parent-nav-link-padding {
+		.canarystrap-navbar .navbar-brand,
+		.canarystrap-navbar .navbar-nav>li>a,
+		.canarystrap-navbar .parent-nav-link-padding {
 				padding-top: 15px!important;
 				padding-bottom: 15px!important
 		}
-		.probootstrap-navbar .dropdown>a:before {
+		.canarystrap-navbar .dropdown>a:before {
 				color: rgba(0, 0, 0, .2)
 		}
 }
 
-.probootstrap-navbar .dropdown>a:hover:before {
+.canarystrap-navbar .dropdown>a:hover:before {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg)
 }
 
-.probootstrap-navbar .dropdown.open>a,
-.probootstrap-navbar .dropdown:active>a,
-.probootstrap-navbar .dropdown:focus>a,
-.probootstrap-navbar .dropdown:hover>a {
+.canarystrap-navbar .dropdown.open>a,
+.canarystrap-navbar .dropdown:active>a,
+.canarystrap-navbar .dropdown:focus>a,
+.canarystrap-navbar .dropdown:hover>a {
 		-webkit-transition: .3s all;
 		transition: .3s all
 }
 
-.probootstrap-navbar .dropdown.open>a:before,
-.probootstrap-navbar .dropdown:active>a:before,
-.probootstrap-navbar .dropdown:focus>a:before,
-.probootstrap-navbar .dropdown:hover>a:before {
+.canarystrap-navbar .dropdown.open>a:before,
+.canarystrap-navbar .dropdown:active>a:before,
+.canarystrap-navbar .dropdown:focus>a:before,
+.canarystrap-navbar .dropdown:hover>a:before {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg)
 }
 
-.probootstrap-navbar .dropdown>.dropdown-menu>li a {
+.canarystrap-navbar .dropdown>.dropdown-menu>li a {
 		padding: 10px;
 		color: rgba(255, 255, 255, .8)
 }
 
-.probootstrap-navbar .dropdown>.dropdown-menu>li a:hover,
-.probootstrap-navbar .dropdown>.dropdown-menu>li.open>a,
-.probootstrap-navbar .dropdown>.dropdown-menu>li:active>a,
-.probootstrap-navbar .dropdown>.dropdown-menu>li:focus>a,
-.probootstrap-navbar .dropdown>.dropdown-menu>li:hover>a {
+.canarystrap-navbar .dropdown>.dropdown-menu>li a:hover,
+.canarystrap-navbar .dropdown>.dropdown-menu>li.open>a,
+.canarystrap-navbar .dropdown>.dropdown-menu>li:active>a,
+.canarystrap-navbar .dropdown>.dropdown-menu>li:focus>a,
+.canarystrap-navbar .dropdown>.dropdown-menu>li:hover>a {
 		color: #85C8DD;
 		background: #fff;
 		border-top: none
 }
 
-.probootstrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu.open>a,
-.probootstrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:active>a,
-.probootstrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:focus>a,
-.probootstrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:hover>a {
+.canarystrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu.open>a,
+.canarystrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:active>a,
+.canarystrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:focus>a,
+.canarystrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:hover>a {
 		border-top: none
 }
 
-.probootstrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu.open>a:before,
-.probootstrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:active>a:before,
-.probootstrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:focus>a:before,
-.probootstrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:hover>a:before {
+.canarystrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu.open>a:before,
+.canarystrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:active>a:before,
+.canarystrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:focus>a:before,
+.canarystrap-navbar .dropdown>.dropdown-menu>li.dropdown-submenu:hover>a:before {
 		color: #000
 }
 
-.probootstrap-navbar .dropdown>.dropdown-menu>li.active>a {
+.canarystrap-navbar .dropdown>.dropdown-menu>li.active>a {
 		color: #fff
 }
 
-.probootstrap-navbar .navbar-right .dropdown-menu {
+.canarystrap-navbar .navbar-right .dropdown-menu {
 		right: auto
 }
 
-.probootstrap-navbar .dropdown-menu {
+.canarystrap-navbar .dropdown-menu {
 		border: none;
 		background: #85C8DD;
 		border-radius: 0;
@@ -229,21 +229,21 @@
 		word-wrap: break-word
 }
 
-.probootstrap-navbar .dropdown-menu a {
+.canarystrap-navbar .dropdown-menu a {
 		white-space: normal
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar .dropdown-menu {
+		.canarystrap-navbar .dropdown-menu {
 				width: 100%;
 				padding: 10px 15px
 		}
-		.probootstrap-navbar .dropdown-menu a {
+		.canarystrap-navbar .dropdown-menu a {
 				color: #fff
 		}
 }
 
-.probootstrap-navbar .navbar-brand {
+.canarystrap-navbar .navbar-brand {
 		padding-top: 0!important;
 		padding-bottom: 0!important;
 		font-size: 30px;
@@ -260,14 +260,14 @@
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar .navbar-brand {
+		.canarystrap-navbar .navbar-brand {
 				top: 5px!important;
 				background-position: left 100%
 		}
 }
 
 @media screen and (max-width:480px) {
-		.probootstrap-navbar .navbar-brand {
+		.canarystrap-navbar .navbar-brand {
 				top: 6px!important
 		}
 }
@@ -277,7 +277,7 @@ only screen and (min--moz-device-pixel-ratio:2),
 only screen and (min-device-pixel-ratio:2),
 only screen and (min-resolution:192dpi),
 only screen and (min-resolution:2dppx) {
-		.probootstrap-navbar .navbar-brand {
+		.canarystrap-navbar .navbar-brand {
 				position: relative;
 				width: 117px;
 				height: 40px;
@@ -286,7 +286,7 @@ only screen and (min-resolution:2dppx) {
 		}
 }
 
-.probootstrap-navbar .navbar-nav>li>a {
+.canarystrap-navbar .navbar-nav>li>a {
 		color: #fff;
 		font-size: 15px;
 		position: relative;
@@ -294,52 +294,52 @@ only screen and (min-resolution:2dppx) {
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar .navbar-nav>li>a {
+		.canarystrap-navbar .navbar-nav>li>a {
 				padding-top: 8px;
 				padding-bottom: 8px;
 				color: rgba(0, 0, 0, .7)
 		}
 }
 
-.probootstrap-navbar .navbar-nav>li>a:active,
-.probootstrap-navbar .navbar-nav>li>a:focus,
-.probootstrap-navbar .navbar-nav>li>a:hover {
+.canarystrap-navbar .navbar-nav>li>a:active,
+.canarystrap-navbar .navbar-nav>li>a:focus,
+.canarystrap-navbar .navbar-nav>li>a:hover {
 		color: rgba(255, 255, 255, .7)
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar .navbar-nav>li>a:active,
-		.probootstrap-navbar .navbar-nav>li>a:focus,
-		.probootstrap-navbar .navbar-nav>li>a:hover {
+		.canarystrap-navbar .navbar-nav>li>a:active,
+		.canarystrap-navbar .navbar-nav>li>a:focus,
+		.canarystrap-navbar .navbar-nav>li>a:hover {
 				color: rgba(0, 0, 0, .7)
 		}
 }
 
-.probootstrap-navbar .navbar-nav>li.open>a,
-.probootstrap-navbar .navbar-nav>li.open>a:focus,
-.probootstrap-navbar .navbar-nav>li.open>a:hover {
+.canarystrap-navbar .navbar-nav>li.open>a,
+.canarystrap-navbar .navbar-nav>li.open>a:focus,
+.canarystrap-navbar .navbar-nav>li.open>a:hover {
 		background: 0 0
 }
 
-.probootstrap-navbar .navbar-nav>li.active>a {
+.canarystrap-navbar .navbar-nav>li.active>a {
 		background: 0 0;
 		color: #fff
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar .navbar-nav>li.active>a {
+		.canarystrap-navbar .navbar-nav>li.active>a {
 				color: rgba(0, 0, 0, .7)
 		}
 }
 
-.probootstrap-navbar .navbar-nav>li.active>a:active,
-.probootstrap-navbar .navbar-nav>li.active>a:focus,
-.probootstrap-navbar .navbar-nav>li.active>a:hover {
+.canarystrap-navbar .navbar-nav>li.active>a:active,
+.canarystrap-navbar .navbar-nav>li.active>a:focus,
+.canarystrap-navbar .navbar-nav>li.active>a:hover {
 		background: 0 0;
 		color: #fff
 }
 
-.probootstrap-navbar .navbar-nav>li>.dropdown-menu:before {
+.canarystrap-navbar .navbar-nav>li>.dropdown-menu:before {
 		border: 1px solid #85C8DD;
 		content: "";
 		position: absolute;
@@ -352,39 +352,39 @@ only screen and (min-resolution:2dppx) {
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar .navbar-nav>li.active>a:active,
-		.probootstrap-navbar .navbar-nav>li.active>a:focus,
-		.probootstrap-navbar .navbar-nav>li.active>a:hover {
+		.canarystrap-navbar .navbar-nav>li.active>a:active,
+		.canarystrap-navbar .navbar-nav>li.active>a:focus,
+		.canarystrap-navbar .navbar-nav>li.active>a:hover {
 				color: rgba(0, 0, 0, .7)
 		}
-		.probootstrap-navbar .navbar-nav>li>.dropdown-menu:before {
+		.canarystrap-navbar .navbar-nav>li>.dropdown-menu:before {
 				display: none
 		}
 }
 
-.probootstrap-navbar .navbar-nav .dropdown li.active>a {
+.canarystrap-navbar .navbar-nav .dropdown li.active>a {
 		background: 0 0
 }
 
-.probootstrap-navbar .navbar-nav.active>a {
+.canarystrap-navbar .navbar-nav.active>a {
 		color: #FFA33E!important
 }
 
-.probootstrap-navbar .dropdown-submenu {
+.canarystrap-navbar .dropdown-submenu {
 		position: relative
 }
 
-.probootstrap-navbar .dropdown-submenu .dropdown-menu {
+.canarystrap-navbar .dropdown-submenu .dropdown-menu {
 		top: 0;
 		left: 100%;
 		margin-top: -1px
 }
 
-.probootstrap-navbar .dropdown-submenu>a {
+.canarystrap-navbar .dropdown-submenu>a {
 		display: block
 }
 
-.probootstrap-navbar .dropdown-submenu>a:before {
+.canarystrap-navbar .dropdown-submenu>a:before {
 		text-transform: none;
 		position: absolute;
 		top: 50%;
@@ -399,50 +399,50 @@ only screen and (min-resolution:2dppx) {
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar .dropdown-submenu>a:before {
+		.canarystrap-navbar .dropdown-submenu>a:before {
 				color: rgba(0, 0, 0, .2)
 		}
 }
 
-.probootstrap-navbar .dropdown-submenu>a:hover:before {
+.canarystrap-navbar .dropdown-submenu>a:hover:before {
 		color: rgba(0, 0, 0, .3);
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg)
 }
 
-.probootstrap-navbar.scrolled {
+.canarystrap-navbar.scrolled {
 		background: #fff;
 		-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .09);
 		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .09);
 }
 
-.probootstrap-navbar.scrolled .navbar-brand,
-.probootstrap-navbar.scrolled .navbar-nav>li>a,
-.probootstrap-navbar.scrolled .parent-nav-link-padding {
+.canarystrap-navbar.scrolled .navbar-brand,
+.canarystrap-navbar.scrolled .navbar-nav>li>a,
+.canarystrap-navbar.scrolled .parent-nav-link-padding {
 		padding-top: 20px;
 		padding-bottom: 20px
 }
 
-.probootstrap-navbar.scrolled .navbar-brand {
+.canarystrap-navbar.scrolled .navbar-brand {
 		top: 10px;
 		background-position: left 100%;
 		height: 50px;
 		margin-top: 0;
 }
 
-.probootstrap-navbar.scrolled .dropdown>a:before {
+.canarystrap-navbar.scrolled .dropdown>a:before {
 		color: rgba(0, 0, 0, .4)
 }
 
-.probootstrap-navbar.scrolled .navbar-nav>li>a {
+.canarystrap-navbar.scrolled .navbar-nav>li>a {
 		color: rgba(0, 0, 0, .7)
 }
 
-.probootstrap-navbar.scrolled .navbar-nav>li>a:hover {
+.canarystrap-navbar.scrolled .navbar-nav>li>a:hover {
 		color: rgba(0, 0, 0, .7)!important
 }
 
-.probootstrap-navbar.scrolled .navbar-nav>li.active>a {
+.canarystrap-navbar.scrolled .navbar-nav>li.active>a {
 		color: #FFA33E!important
 }
 
@@ -461,12 +461,12 @@ only screen and (min-resolution:2dppx) {
 		margin-top: -1px
 }
 
-.probootstrap-hero {
+.canarystrap-hero {
 		background-size: cover;
 		background-position: center center
 }
 
-.probootstrap-hero>.overlay {
+.canarystrap-hero>.overlay {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -477,55 +477,55 @@ only screen and (min-resolution:2dppx) {
 }
 
 .btn.btn-primary,
-.probootstrap-hero.probootstrap-hero-colored {
+.canarystrap-hero.canarystrap-hero-colored {
 		background: #FFA33E
 }
 
-.probootstrap-hero>.container {
+.canarystrap-hero>.container {
 		position: relative;
 		z-index: 2
 }
 
-.probootstrap-hero .probootstrap-hero-text {
+.canarystrap-hero .canarystrap-hero-text {
 		padding-top: 200px;
 		padding-bottom: 200px
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-navbar.scrolled .navbar-nav>li.active>a {
+		.canarystrap-navbar.scrolled .navbar-nav>li.active>a {
 				color: #FFA33E!important
 		}
-		.probootstrap-hero .probootstrap-hero-text {
+		.canarystrap-hero .canarystrap-hero-text {
 				padding-top: 50px;
 				padding-bottom: 50px
 		}
 }
 
-.probootstrap-hero.probootstrap-sm-hero .probootstrap-hero-text {
+.canarystrap-hero.canarystrap-sm-hero .canarystrap-hero-text {
 		padding-top: 150px;
 		padding-bottom: 150px
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-hero.probootstrap-sm-hero .probootstrap-hero-text {
+		.canarystrap-hero.canarystrap-sm-hero .canarystrap-hero-text {
 				padding-top: 50px;
 				padding-bottom: 50px
 		}
 }
 
-.probootstrap-hero.probootstrap-xs-hero .probootstrap-hero-text {
+.canarystrap-hero.canarystrap-xs-hero .canarystrap-hero-text {
 		padding-top: 90px;
 		padding-bottom: 90px
 }
 
 @media screen and (max-width:768px) {
-		.probootstrap-hero.probootstrap-xs-hero .probootstrap-hero-text {
+		.canarystrap-hero.canarystrap-xs-hero .canarystrap-hero-text {
 				padding-top: 50px;
 				padding-bottom: 50px
 		}
 }
 
-.probootstrap-hero .btn {
+.canarystrap-hero .btn {
 		position: relative;
 		font-size: 18px;
 		width: 200px
@@ -533,24 +533,24 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:480px) {
 		.container-fluid .dropdown-submenu:hover>.dropdown-menu,
-		.probootstrap-navbar .dropdown-submenu:hover>.dropdown-menu {
+		.canarystrap-navbar .dropdown-submenu:hover>.dropdown-menu {
 				display: block
 		}
-		.probootstrap-hero .btn {
+		.canarystrap-hero .btn {
 				width: 100%;
 				margin-bottom: 10px
 		}
 }
 
-.probootstrap-hero .btn.btn-primary {
+.canarystrap-hero .btn.btn-primary {
 		text-transform: uppercase;
 		padding: 15px 20px
 }
 
-.probootstrap-hero.probootstrap-hero-colored h1 {
+.canarystrap-hero.canarystrap-hero-colored h1 {
 		color: #fff
 }
 
-.probootstrap-hero.probootstrap-hero-colored p {
+.canarystrap-hero.canarystrap-hero-colored p {
 		color: rgba(255, 255, 255, .8)
 }
