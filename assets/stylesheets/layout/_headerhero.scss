@@ -1,3 +1,7 @@
+.navbar-header {
+	height: 60px;
+}
+
 .hero-text-heading,
 .canarystrap-hero h1 {
 		font-size: 52px;
@@ -261,7 +265,7 @@
 
 @media screen and (max-width:768px) {
 		.canarystrap-navbar .navbar-brand {
-				top: 5px!important;
+				top: -15px;
 				background-position: left 100%
 		}
 }
