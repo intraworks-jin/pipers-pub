@@ -312,12 +312,15 @@ section[data-section=menu] {
 .Add-On {
   background-color: #FFA33E;
   color: white;
-  padding-left: 13px;
-  padding-bottom: 1em;
+  padding: 3em 0em;
 }
+
 .Add-On li {
-  padding-left: 13px;
+  padding-left: 20px;
 }
+.Add-On h3 {
+  color: white;
+  padding-left: 20px;}
 
 .table {
   border-collapse: collapse;
@@ -360,11 +363,22 @@ th, td {
   .tablet_web {
     display: none;
   }
+    
+  .event-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .responsive_frame iframe {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
+
 
 @media screen and (min-width: 769px) {
   .mobile {
     display: none;
+    float: left;
   }
 
   .tablet_web {
@@ -858,7 +872,7 @@ th, td {
 		position: relative;
 		top: -50px;
 		font-weight: 700;
-		line-height: 40px
+		line-height: 50px
 }
 
 @media screen and (max-width:768px) {

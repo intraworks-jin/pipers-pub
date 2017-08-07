@@ -15,7 +15,7 @@ function CountDownTimer(dt, id)
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById(id).innerHTML = 'EXPIRED!';
+            document.getElementById(id).innerHTML = '<h2>'+ ' <span>SORRY, THIS EVENT IS NOW OVER.</span></h2>';
 
             return;
         }
@@ -41,7 +41,8 @@ function CountDownTimer(dt, id)
                       '<p>' +  hours + ' <span>hours</span></p>' +
                      '<p>' +  minutes + ' <span>minutes</span></p>' +
                      '<p>' +  seconds + ' <span>seconds</span></p>'
-                      + '</h2>';
+                      + '</h2>' +
+                      '<h2>' + '<span> UNTIL HISTORY IS MADE</span></h2>';
 
         document.getElementById(id).innerHTML = datestr;
     }
