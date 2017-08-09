@@ -266,14 +266,34 @@
 @media screen and (max-width:768px) {
 		.canarystrap-navbar .navbar-brand {
 				top: -15px;
-				background-position: left 100%
+				background-position: left 100%;
+		}
+		@media only screen and (-webkit-min-device-pixel-ratio:2),
+		only screen and (min--moz-device-pixel-ratio:2),
+		only screen and (min-device-pixel-ratio:2),
+		only screen and (min-resolution:192dpi),
+		only screen and (min-resolution:2dppx) {
+				.canarystrap-navbar .navbar-brand {
+						margin-top: 30px !important;
+				}
 		}
 }
 
 @media screen and (max-width:480px) {
 		.canarystrap-navbar .navbar-brand {
-				top: 6px!important
+				top: 6px!important;
 		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio:2),
+		only screen and (min--moz-device-pixel-ratio:2),
+		only screen and (min-device-pixel-ratio:2),
+		only screen and (min-resolution:192dpi),
+		only screen and (min-resolution:2dppx) {
+				.canarystrap-navbar .navbar-brand {
+						margin-top: 10px !important;
+				}
+		}
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),
@@ -286,7 +306,8 @@ only screen and (min-resolution:2dppx) {
 				width: 117px;
 				height: 40px;
 				background: url(/img/logo@2x.png) left 100% no-repeat;
-				background-size: cover
+				background-size: cover;
+				margin-top: 0px;
 		}
 }
 
