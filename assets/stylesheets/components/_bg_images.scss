@@ -1,20 +1,4 @@
-@media (min-width: $screen-sm-min) {
-  .menu-bg { background-image: url("/img/hero/homepage-menu-sm.jpg"); }
-  .drinks-bg { background-image: url("/img/hero/homepage-drinks-sm.jpg"); }
-  .specials-bg { background-image: url("/img/hero/homepage-specials-sm.jpg"); }
-  .events-bg { background-image: url("/img/hero/homepage-events-sm.jpg"); }
-}
-
-@media (min-width: $screen-md-min) {
-  .menu-bg { background-image: url("/img/hero/homepage-menu-md.jpg"); }
-  .drinks-bg { background-image: url("/img/hero/homepage-drinks-md.jpg"); }
-  .specials-bg { background-image: url("/img/hero/homepage-specials-md.jpg"); }
-  .events-bg { background-image: url("/img/hero/homepage-events-md.jpg"); }
-}
-
-@media (min-width: $screen-lg-min) {
-  .menu-bg { background-image: url("/img/hero/homepage-menu-lg.jpg"); }
-  .drinks-bg { background-image: url("/img/hero/homepage-drinks-lg.jpg"); }
-  .specials-bg { background-image: url("/img/hero/homepage-specials-lg.jpg"); }
-  .events-bg { background-image: url("/img/hero/homepage-events-lg.jpg"); }
-}
+.menu-bg { background-image: url("/img/hero/homepage-menu-lg.jpg"); }
+.drinks-bg { background-image: url("/img/hero/homepage-drinks-lg.jpg"); }
+.specials-bg { background-image: url("/img/hero/homepage-specials-lg.jpg"); }
+.events-bg { background-image: url("/img/hero/homepage-events-lg.jpg"); }
