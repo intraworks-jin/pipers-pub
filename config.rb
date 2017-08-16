@@ -27,3 +27,18 @@ activate :aria_current
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'img'
+
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket                     = 'www.pipers-pub.ca'
+  s3_sync.region                     = 'us-west-2'
+  s3_sync.aws_access_key_id          = 'REDACTED: Use .s3_sync file with info in it'
+  s3_sync.aws_secret_access_key      = 'REDACTED: Use .s3_sync file with info in it'
+  s3_sync.delete                     = true
+  s3_sync.prefer_gzip                = false
+  s3_sync.acl                        = 'public-read'
+  s3_sync.encryption                 = false
+  s3_sync.prefix                     = ''
+  s3_sync.version_bucket             = false
+end
+
+require 'mime-types'
