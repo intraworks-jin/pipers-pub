@@ -398,30 +398,30 @@ title: Pipers Pub, Nanaimo BC
 			</div>
 			<div class="col-md-6 col-md-push-1 canarystrap-animate">
 
-			<form id="ajax-contact" method="post" action="https://static-files.canaryprint.ca/pipers-pub.ca/mailer.php">
+			<form id="ajax-contact" method="post" action="https://static-files.canaryprint.ca/pipers-pub.ca/mailer.php" class="canarystrap-form">
 				<div class="form-group">
-					<label for="name">Name:</label>
+					<label for="name">Your Name</label>
 					<div class="form-field">
-						<input type="text" id="name" name="name" required>
+						<input type="text" id="name" name="name" required class="form-control">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="email">Your Email</label>
+					<div class="form-field">
+						<input type="email" id="email" name="email" required class="form-control">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="message">Your Message</label>
+					<div class="form-field">
+						<textarea id="message" name="message" rows="8" required class="form-control"></textarea>
 					</div>
 				</div>
 
 				<div class="field">
-					<label for="email">Email:</label>
-					<div class="form-field">
-						<input type="email" id="email" name="email" required>
-					</div>
-				</div>
-
-				<div class="field">
-					<label for="message">Message:</label>
-					<div class="form-field">
-						<textarea id="message" name="message" required></textarea>
-					</div>
-				</div>
-
-				<div class="field">
-					<button type="submit" class="btn btn-primary btn-lg">Send</button>
+					<button type="submit" class="btn btn-primary btn-lg">Send Message</button>
 				</div>
 			</form>
 			<div id="form-messages"></div>
